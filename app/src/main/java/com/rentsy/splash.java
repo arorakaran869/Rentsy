@@ -10,6 +10,7 @@ public class splash extends AppCompatActivity {
     static {
         System.loadLibrary("native-lib");
     }
+    //
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
