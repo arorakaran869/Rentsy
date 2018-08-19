@@ -13,7 +13,6 @@ public class splash extends AppCompatActivity {
     //this activity will ensure working data connection
     //this will wheather user is logged in or not
     //download pg data from server
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
