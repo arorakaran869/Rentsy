@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 
 public class homefragment extends Fragment {
 
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
