@@ -24,7 +24,7 @@ public class splash extends AppCompatActivity {
     }
 
     public void createQuery(){
-        //creating the query
+        //creating  the query
     }
 
     public void getLocation(){
