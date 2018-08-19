@@ -9,11 +9,10 @@ import android.widget.TextView;
 
 public class splash extends AppCompatActivity {
 
-    //this activity will open when user launches app
+    //this sctivity will open when user launches app
     //this activity will ensure working data connection
-
-
-
+    //this will wheather user is logged in or not
+    //download pg data from server
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
