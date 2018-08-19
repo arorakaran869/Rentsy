@@ -13,12 +13,25 @@ public class splash extends AppCompatActivity {
     //this activity will ensure working data connection
     //this will wheather user is logged in or not
     //download pg data from server
+
+    private StringBuffer query;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
+        //generate query  based on the user's requirement
     }
+
+    public void createQuery(){
+        //creating the query
+    }
+
+    public void getLocation(){
+        //get user preferred Location i.e city area
+    }
+
+    //passing the entire query to fetch data in background in async task
 
     class fetchalldataonsplash extends AsyncTask<String , String ,String> {
         ProgressDialog progressDialog;
@@ -49,12 +62,11 @@ public class splash extends AppCompatActivity {
         @Override
         protected void onPostExecute(String result)
         {
+            super.onPostExecute(result);
             progressDialog.dismiss();
             Intent i = new Intent(splash.this,login.class);
             finish();
             startActivity(i);
-
-            super.onPostExecute(result);
         }
 
     }
